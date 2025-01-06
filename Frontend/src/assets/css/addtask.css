@@ -1,0 +1,52 @@
+.main-section {
+    text-align: left;
+}
+
+.main-section .card {
+    background-color: var(--common-text-color);
+    padding: 10px 24px;
+    border-radius: 24px;
+    border: none;
+}
+
+.main-section .add-btn {
+    background-color: var(--common-background-color);
+    color: var(--common-text-color);
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.main-section .add-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.main-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 500px;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+    .form-control {
+        width: 100%;
+    }
+}

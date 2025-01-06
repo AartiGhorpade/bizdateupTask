@@ -1,0 +1,36 @@
+.delete-btn,
+.delete-btn:hover {
+    color: rgb(188, 14, 40);
+    font-weight: 700;
+}
+
+.delete-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.tasks-list {
+    background-color: var(--common-text-color);
+    padding: 14px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid rgb(185, 185, 239);
+}
+
+.no-task-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+input[type=checkbox] {
+    accent-color: green;
+}
+
+input[type="checkbox"]:hover {
+    cursor: pointer;
+}
