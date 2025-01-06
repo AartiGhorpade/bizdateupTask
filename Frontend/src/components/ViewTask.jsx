@@ -13,7 +13,7 @@ const ViewTask = () => {
     setTasks(storedData);
   }, []);
 
-  const PORT = 'http://localhost:4001';
+  const PORT = 'https://bizdateuptask-1.onrender.com';
 
   // handles search
   const searchHandler = (e) => {

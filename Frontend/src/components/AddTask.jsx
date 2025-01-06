@@ -6,7 +6,7 @@ const AddTask = () => {
 
   const [inputData, setInputData] = useState('');
 
-  const PORT = 'http://localhost:4001';
+  const PORT = 'https://bizdateuptask-1.onrender.com';
 
 
   // Handles adding a new task and saving it to the backend
