@@ -10,8 +10,8 @@ function App() {
       <Navbar />
       <Routes>
         {/* Define routes here */}
-        <Route path="/add-task" element={<AddTask />} />
         <Route path="/" element={<ViewTask />} />
+        <Route path="/add-task" element={<AddTask />} />
       </Routes>
     </BrowserRouter>
   );

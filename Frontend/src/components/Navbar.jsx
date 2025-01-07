@@ -11,7 +11,7 @@ const Navbar = () => {
         const currentPath = location.pathname;
         if (currentPath === '/add-task') {
             setActiveLink('addtask');
-        } else if (currentPath === '/') {
+        } else {
             setActiveLink('viewtask');
         }
     }, [location]);
