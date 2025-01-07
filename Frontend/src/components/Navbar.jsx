@@ -11,7 +11,7 @@ const Navbar = () => {
         const currentPath = location.pathname;
         if (currentPath === '/add-task') {
             setActiveLink('addtask');
-        } else if (currentPath === '/view-task') {
+        } else if (currentPath === '/') {
             setActiveLink('viewtask');
         }
     }, [location]);
@@ -32,7 +32,7 @@ const Navbar = () => {
                     <li className="nav-item">
                         <Link
                             className={`nav-link p-2 ${activeLink === 'viewtask' ? 'active' : ''}`}
-                            to="/view-task"
+                            to="/"
                             onClick={() => setActiveLink('viewtask')}
                         >
                             View Task

@@ -4,11 +4,6 @@
     font-weight: 700;
 }
 
-.delete-btn:focus {
-    outline: none;
-    box-shadow: none;
-}
-
 .tasks-list {
     background-color: var(--common-text-color);
     padding: 14px 30px;

@@ -11,7 +11,7 @@ function App() {
       <Routes>
         {/* Define routes here */}
         <Route path="/add-task" element={<AddTask />} />
-        <Route path="/view-task" element={<ViewTask />} />
+        <Route path="/" element={<ViewTask />} />
       </Routes>
     </BrowserRouter>
   );

@@ -26,7 +26,7 @@ app.post('/storeTask', async (req, resp) => {
     }
 })
 
-// to store a new task
+// to see all the tasks at backend only
 app.get('/storedTasks', async (req, resp) => {
     try {
         resp.send(tasks)
